@@ -1,0 +1,22 @@
+
+# Залежності Node.js
+node_modules/
+
+# Секретні змінні середовища
+.env
+.env.*
+!.env.example
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Тимчасові файли Windows та редакторів
+Thumbs.db
+.DS_Store
+.vscode/
+
+# Зібрані файли
+dist/
+build/
